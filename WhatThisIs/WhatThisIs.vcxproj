@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{3A8AB3F4-0FC4-4347-AD9A-F814244C8991}</ProjectGuid>
+    <ProjectGuid>{904C1EB2-B31C-4B3E-BC2E-1D4E5D0057F2}</ProjectGuid>
     <RootNamespace>WhatThisIs</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -123,10 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include=".gitignore" />
+    <ClCompile Include="..\..\WhatThisIs\main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

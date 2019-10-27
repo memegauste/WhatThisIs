@@ -15,13 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="..\..\xxx\main.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include=".gitignore">
-      <Filter>Pliki zasobów</Filter>
-    </None>
   </ItemGroup>
 </Project>
